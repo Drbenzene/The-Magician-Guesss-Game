@@ -1,0 +1,40 @@
+.container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin: 0px 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.right :nth-child(2) {
+    padding: 20px;
+    border-radius: 10px;;
+}
+
+
+#hint{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(235, 71, 71);
+    font-style: italic;
+}
+
+.allGuesses {
+    display: flex;
+    flex-direction: row;
+}
